@@ -10,7 +10,7 @@
                         <div class="linear-gradient">
                             <span class="font-2 accent-color-3">HIPMI Kab. Semarang</span>
                         </div>
-                        <h1 class="fw-semibold">Bangkit Bersama Kab. Semarang</h1>
+                        <h1 class="fw-semibold">Bangkit Bersama Kab. Semarang123</h1>
                         <p>
                             Bergabunglah bersama organisasi pengusaha muda terbesar di Indonesia
                         </p>
