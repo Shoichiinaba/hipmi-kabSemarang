@@ -17,7 +17,7 @@ $db['default'] = array(
 
 	 // online development (productions)
 	 'username' => 'u741951839_hipmi',
-	 'password' => 'hipmi123!',
+	 'password' => 'Hipmi123!',
 
 	'database' => 'u741951839_hipmi',
 	'dbdriver' => 'mysqli',
