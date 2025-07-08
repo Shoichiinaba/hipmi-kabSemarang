@@ -5,46 +5,8 @@
         <div class="r-container position-relative" style="z-index: 2;">
             <div class="d-flex flex-column gap-4">
                 <div class="d-flex flex-column align-items-center justify-content-center mx-auto gap-3 text-center">
-                    <img src="<?= base_url('assets/'); ?>image/logo.png" alt="" class="img-fluid" width="350">
-                    <p style="max-width: 667px;">
-                        We are specialize in transforming businesses and fostering growth through strategic insights
-                        and unparalleled expertise.
-                    </p>
                     <div class="d-flex flex-column gap-3 w-100">
                         <div class="d-flex flex-column gap-3">
-                            <div class="toast-container position-fixed bottom-0 end-0 p-3">
-                                <div id="liveToast" class="toast success_msg_subscribe bg-dark-transparent text-white"
-                                    role="alert" aria-live="assertive" aria-atomic="true">
-                                    <div class="d-flex">
-                                        <div class="toast-body">
-                                            Your Subscribe Send Successfully!.
-                                        </div>
-                                        <button type="button" class="btn me-2 m-auto text-white" data-bs-dismiss="toast"
-                                            aria-label="Close">
-                                            <i class="fa-solid fa-xmark"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <form
-                                    class="d-flex flex-column h-100 justify-content-center w-100 needs-validation form"
-                                    novalidate>
-                                    <input type="text" name="action" value="subscribe" hidden>
-                                    <div class="input-group mb-xl-2 mb-0 position-relative">
-                                        <input type="email"
-                                            class="form-control rounded-start-pill rounded-end-0 mb-xl-0 mb-3"
-                                            placeholder="Your Email" name="email" required>
-                                        <button
-                                            class="btn btn-accent submit_subscribe rounded-pill rounded-start-0 position-relative px-4 py-3"
-                                            style="z-index: 2;" type="submit">Subscribe</button>
-                                        <div class="invalid-feedback text-white">
-                                            Please provide a valid email format (e.g.,
-                                            user@example.com).
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
                         </div>
 
                     </div>
@@ -71,18 +33,6 @@
                                                         <a href="about.html"
                                                             class="link d-flex flex-row gap-3 align-items-center">
                                                             About Us
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="services.html"
-                                                            class="link d-flex flex-row gap-3 align-items-center">
-                                                            Services
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="price_plan.html"
-                                                            class="link d-flex flex-row gap-3 align-items-center">
-                                                            Pricing Plan
                                                         </a>
                                                     </li>
                                                     <li>
@@ -169,7 +119,7 @@
                                                         </div>
                                                         <div class="d-flex flex-column">
                                                             <h5>Phone</h5>
-                                                            <span>0761-8523-398</span>
+                                                            <span>+62 859-4138-420</span>
                                                         </div>
                                                     </div>
                                                 </li>
@@ -180,7 +130,8 @@
                                                         </div>
                                                         <div class="d-flex flex-column">
                                                             <h5>Location</h5>
-                                                            <span>KLLG st, No.99, Pku City, ID 28289</span>
+                                                            <span>Sraten Satu, Kec. Tuntang, Kabupaten Semarang, Jawa
+                                                                Tengah 50773</span>
                                                         </div>
                                                     </div>
                                                 </li>
@@ -191,7 +142,7 @@
                                                         </div>
                                                         <div class="d-flex flex-column">
                                                             <h5>Email</h5>
-                                                            <span>hello@domainsite.com</span>
+                                                            <span>Hipmi-KabSemarang@dipo.com</span>
                                                         </div>
                                                     </div>
                                                 </li>

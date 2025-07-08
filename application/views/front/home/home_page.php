@@ -34,7 +34,7 @@
                         <div class="d-flex position-relative w-100 bottom-0 pe-0 align-items-end">
                             <img src="<?= base_url('assets/'); ?>image/bg.png" class="img-fluid position-relative"
                                 style="z-index: 1;" alt="">
-                            <img src="<?= base_url('assets/'); ?>image/header.png" alt=""
+                            <img src="<?= base_url('assets/'); ?>image/header1.png" alt=""
                                 class="img-fluid w-100 position-absolute" style="object-fit: cover; z-index: 3;">
                         </div>
                         <div class="floating-bottom mb-3" style="z-index: 0;">
@@ -212,39 +212,45 @@
                         <div class="linear-gradient">
                             <span class="font-2 accent-color-3">Why Choose Us</span>
                         </div>
-                        <h2 class="fw-semibold">Right Reason for Why You Choose Probiz</h2>
+                        <h2 class="fw-semibold">Berita, Cerita, Semua tentang HIPMI</h2>
                         <p>
-                            We are specialize in transforming businesses and fostering growth through strategic
-                            insights and unparalleled expertise.
+                            Kegiatan kami <br>
+                            <span class="font-2 accent-color-3">Catat jadwal kegiatan kami</span>
                         </p>
                         <div class="position-relative d-flex flex-xl-row flex-column gap-3 px-4">
                             <div class="floating-top">
-                                <h3 class="accent-color-2 fw-semibold">01</h3>
+                                <h3 class="accent-color-2 fw-semibold">22 OKT</h3>
                             </div>
                             <div class="d-flex flex-column">
-                                <h5>Target Audience</h5>
-                                <span>Vestibulum interdum porta ex, nec commodo magna scelerisque in nam sit
-                                    consequat suscipit tortor,</span>
+                                <h6>15:00 - Selesai</h6>
+                                <h5>Kegiatan HIPMI Regional Karawang 2025</h5>
+                                <span>
+                                    <i class="fa-solid fa-map-marker-alt me-2 text-info"></i>
+                                    VMinistage Hall 6, Karawang, Karawang
+                                </span>
                             </div>
                         </div>
                         <div class="position-relative d-flex flex-xl-row flex-column gap-3 px-4">
                             <div class="floating-top-1">
-                                <h3 class="accent-color-2 fw-semibold">02</h3>
+                                <h3 class="accent-color-2 fw-semibold">25 OKT</h3>
                             </div>
                             <div class="d-flex flex-column">
-                                <h5>High Conversation Rate</h5>
-                                <span>Vestibulum interdum porta ex, nec commodo magna scelerisque in nam sit
-                                    consequat suscipit tortor,</span>
+                                <h6>13:00 - Selesai</h6>
+                                <h5>
+                                    Kegitan HIPMI Regional Karawang 2025</h5>
+                                <span><i class="fa-solid fa-map-marker-alt me-2 text-info"></i>
+                                    Online Meeting (ZOOM)</span>
                             </div>
                         </div>
                         <div class="position-relative d-flex flex-xl-row flex-column gap-3 px-4">
                             <div class="floating-top-1">
-                                <h3 class="accent-color-2 fw-semibold">03</h3>
+                                <h3 class="accent-color-2 fw-semibold">12 OKT</h3>
                             </div>
                             <div class="d-flex flex-column">
-                                <h5>Better Market Research</h5>
-                                <span>Vestibulum interdum porta ex, nec commodo magna scelerisque in nam sit
-                                    consequat suscipit tortor,</span>
+                                <h6>14:00 - Selesai</h6>
+                                <h5>Karawang Gathering 2025 - Accelerating Business From Networking</h5>
+                                <span><i class="fa-solid fa-map-marker-alt me-2 text-info"></i>
+                                    Bengkel Space, Karawang</span>
                             </div>
                         </div>
                     </div>
@@ -265,20 +271,20 @@
         <div class="r-container">
             <div class="row row-cols-xl-4 row-cols-1 text-center">
                 <div class="col mb-3">
-                    <h1 class="text-white">15<sup>+</sup></h1>
-                    <h5 class="text-white">Years Experience</h5>
+                    <h1 class="text-white">48<sup>+</sup></h1>
+                    <h5 class="text-white">Tahun</h5>
                 </div>
                 <div class="col mb-3">
-                    <h1 class="text-white">2k</h1>
-                    <h5 class="text-white">Happy Customers</h5>
+                    <h1 class="text-white">2</h1>
+                    <h5 class="text-white">Cabang</h5>
                 </div>
                 <div class="col mb-3">
-                    <h1 class="text-white">250<sup>+</sup></h1>
-                    <h5 class="text-white">Expert Consultant</h5>
+                    <h1 class="text-white">3000<sup>+</sup></h1>
+                    <h5 class="text-white">Anggota</h5>
                 </div>
                 <div class="col mb-3">
-                    <h1 class="text-white">90<sup>%</sup></h1>
-                    <h5 class="text-white">Problem Solved</h5>
+                    <h1 class="text-white">171<sup></sup></h1>
+                    <h5 class="text-white">Pengurus Inti</h5>
                 </div>
             </div>
         </div>
@@ -295,9 +301,10 @@
                         </div>
 
                         <h3 class="fw-semibold">Let’s Talk With Our Consultants</h3>
-                        <p class="text-color-2">We are specialize in transforming businesses and fostering growth
-                            through strategic
-                            insights and unparalleled expertise.
+                        <p class="text-color-2" style="text-align: justify;">HIPMI akan mempertemukan Anda dengan ribuan
+                            anggota lainnya, lintas
+                            generasi dan daerah. Perluas jangkauan koneksi Anda untuk menyelesaikan tantangan
+                            kewirausahaan Anda.
                         </p>
                         <div class="w-max-content">
                             <a href="team.html" class="btn btn-accent rounded-pill d-flex flex-row gap-2 px-5 py-3">
@@ -309,14 +316,14 @@
                 </div>
                 <div class="col mb-5">
                     <div class="position-relative mb-5">
-                        <img src="<?= base_url('assets/'); ?>image/dummy-img-600x700.jpg" alt="image"
+                        <img src="<?= base_url('assets/'); ?>image/team1.jpg" alt="image"
                             class="img-fluid rounded-3 w-100">
                         <div class="position-absolute w-75" style="margin-top: -5rem; margin-left: 12%;">
                             <div
                                 class="bg-accent-color d-flex flex-column text-white p-4 align-items-center text-center rounded-3">
                                 <div class="mb-2">
-                                    <h4>Courtney Henry</h4>
-                                    <span class="font-2">Senior Advisor</span>
+                                    <h4>Akbar Himawan B.</h4>
+                                    <span class="font-2">Ketua Umum BPP HIPMI</span>
                                 </div>
                                 <div class="social-container team gap-2">
                                     <a href="https://www.facebook.com" class="social-item">
@@ -338,14 +345,14 @@
                 </div>
                 <div class="col mb-5">
                     <div class="position-relative mb-5">
-                        <img src="<?= base_url('assets/'); ?>image/dummy-img-600x700.jpg" alt="image"
+                        <img src="<?= base_url('assets/'); ?>image/team2.jpg" alt="image"
                             class="img-fluid rounded-3 w-100">
                         <div class="position-absolute w-75" style="margin-top: -5rem; margin-left: 12%;">
                             <div
                                 class="bg-accent-color d-flex flex-column text-white p-4 align-items-center text-center rounded-3">
                                 <div class="mb-2">
-                                    <h4>Catlyn Murphy</h4>
-                                    <span class="font-2">Junior Advisor</span>
+                                    <h4>Teddy Tirtayadi</h4>
+                                    <span class="font-2">Ketua Umum BPD HIPMI</span>
                                 </div>
                                 <div class="social-container team gap-2">
                                     <a href="https://www.facebook.com" class="social-item">
@@ -371,25 +378,54 @@
 
     <!-- Section CTA -->
     <div class="section position-relative bg-attach-fixed"
-        style="background-image: url(<?= base_url('assets/'); ?>image/dummy-img-1920x900.jpg);">
+        style="background-image: url(<?= base_url('assets/'); ?>image/back12.png);">
         <div class="bg-overlay"></div>
-        <div class="r-container position-relative py-5" style="z-index: 2;">
-            <div class="d-flex flex-column mx-auto text-center align-items-center text-white gap-4"
-                style="max-width: 767px;">
-                <h3 class="font-1 text-white">Optimize Operations for Maximum Efficiency</h3>
-                <p style="max-width: 667px;">
-                    Drive innovation and lead your market segment. Contact us to explore how our consulting can
-                    position your business as a frontrunner.
-                </p>
-                <div class="w-max-content">
-                    <a href="contact.html" class="btn btn-accent rounded-pill d-flex flex-row gap-2 px-5 py-3">
-                        <span>Get In Touch</span>
-                        <i class="rtmicon rtmicon-arrow-up-right fs-6 fw-semibold"></i>
+        <div class="r-container position-relative py-2" style="z-index: 2;">
+            <div class="mx-auto text-center text-white" style="max-width: 1200px;">
+                <h3 class="font-1 text-white mb-3 mt-1">Why Join HIPMI</h3>
+
+                <div class="d-flex flex-row justify-content-center gap-4 flex-wrap">
+                    <!-- Box 1 -->
+                    <div class="d-flex flex-column align-items-start text-start p-3 bg-dark bg-opacity-25 rounded"
+                        style="width: 300px;">
+                        <h3 class="text-white fw-semibold">01</h3>
+                        <h5>Koneksi-Solusi</h5>
+                        <span style="text-align: justify;">
+                            HIPMI akan mempertemukan Anda dengan ribuan anggota lainnya, lintas generasi dan daerah.
+                            Perluas jangkauan koneksi Anda untuk menyelesaikan tantangan kewirausahaan Anda.
+                        </span>
+                    </div>
+
+                    <!-- Box 2 -->
+                    <div class="d-flex flex-column align-items-start text-start p-3 bg-dark bg-opacity-25 rounded"
+                        style="width: 300px;">
+                        <h3 class="text-white fw-semibold">02</h3>
+                        <h5>Kolaborasi-Kompetisi</h5>
+                        <span style="text-align: justify;">Petakan pesaing dan mitra usaha Anda melalui HIPMI. Bangun
+                            kolaborasi untuk memajukan usaha Anda dalam berkompetisi.)</span>
+                    </div>
+
+                    <!-- Box 3 -->
+                    <div class="d-flex flex-column align-items-start text-start p-3 bg-dark bg-opacity-25 rounded"
+                        style="width: 300px;">
+                        <h3 class="text-white fw-semibold">03</h3>
+                        <h5>Aktual-Kapital</h5>
+                        <span style="text-align: justify;">Dapatkan informasi terbaru dan kesempatan untuk terlibat
+                            dalam program-program peningkatan kapasitas khusus anggota, serta akses modal melalui
+                            mitra-mitra HIPMI.</span>
+                    </div>
+                </div>
+
+                <!-- Tombol -->
+                <div class="mt-3">
+                    <a href="contact.html" class="btn btn-accent rounded-pill px-4 py-2">
+                        Get In Touch <i class="rtmicon rtmicon-arrow-up-right fs-6 fw-semibold ms-2"></i>
                     </a>
                 </div>
             </div>
         </div>
     </div>
+
 
     <!-- Testimonials -->
     <div class="section">
@@ -676,20 +712,20 @@
                 <div class="col mb-3">
                     <div class="card d-flex flex-column gap-3">
                         <div class="position-relative overflow-hidden rounded-3">
-                            <img src="<?= base_url('assets/'); ?>image/dummy-img-600x400.jpg" alt="image"
-                                class="img-fluid">
+                            <img src="<?= base_url('assets/'); ?>image/artikle.jpg" alt="image" class="img-fluid">
                             <div class="bg-overlay-2"></div>
                             <div class="position-absolute top-0 left-0 px-4 py-2 bg-accent-color-3 rounded-2"
                                 style="margin-top: 1rem; margin-left: 1rem;">
                                 <span class="text-white">Finance</span>
                             </div>
                             <div class="position-absolute bottom-0 left-0 text-white" style="margin: 1rem;">
-                                <h5>Probiz Expert Consulting Unleashes Your Potential</h5>
+                                <h5>Sambutan Presiden Jokowi Pada Pembukaan Investor Daily Summit 2025</h5>
                             </div>
                         </div>
                         <div class="d-flex flex-column gap-1 mb-3">
-                            <p class="text-color-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                                eu augue a quam cursus commodo non imperdiet nisl. Donec ullamcorper fermentum sem.
+                            <p class="text-color-2">11-12 Oktober 2025, Assembly Hall, Karawang Convention Center
+                                Sambutan Presiden
+                                Jokowi Pada Pembukaan Investor Daily Summit 2025 Investor Daily Summit […]
                             </p>
                             <a href="single_blog.html" class="font-1 fs-6 fw-semibold accent-color">READ MORE <i
                                     class="rtmicon rtmicon-arrow-up-right fw-bold fs-6"></i></a>
@@ -699,20 +735,19 @@
                 <div class="col mb-3">
                     <div class="card d-flex flex-column gap-3">
                         <div class="position-relative overflow-hidden rounded-3">
-                            <img src="<?= base_url('assets/'); ?>image/dummy-img-600x400.jpg" alt="image"
-                                class="img-fluid">
+                            <img src="<?= base_url('assets/'); ?>image/artikel2.jpg" alt="image" class="img-fluid">
                             <div class="bg-overlay-2"></div>
                             <div class="position-absolute top-0 left-0 px-4 py-2 bg-accent-color-3 rounded-2"
                                 style="margin-top: 1rem; margin-left: 1rem;">
                                 <span class="text-white">Business</span>
                             </div>
                             <div class="position-absolute bottom-0 left-0 text-white" style="margin: 1rem;">
-                                <h5>Expanding Globally and Expanding Your Reach</h5>
+                                <h5>Acara Football Charity Match di Pancoran Soccer Field</h5>
                             </div>
                         </div>
                         <div class="d-flex flex-column gap-1 mb-3">
-                            <p class="text-color-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                                eu augue a quam cursus commodo non imperdiet nisl. Donec ullamcorper fermentum sem.
+                            <p class="text-color-2">BPD HIPMI bersama dengan APPI menyelenggarakan Football Charity
+                                Match untuk menghormati saudara/i kita atas kejadian yang menimpa di Stadion […]
                             </p>
                             <a href="single_blog.html" class="font-1 fs-6 fw-semibold accent-color">READ MORE <i
                                     class="rtmicon rtmicon-arrow-up-right fw-bold fs-6"></i></a>
@@ -726,9 +761,8 @@
                         </div>
 
                         <h3 class="fw-semibold">Read Our Recent News & Insights</h3>
-                        <p class="text-color-2">We are specialize in transforming businesses and fostering growth
-                            through strategic
-                            insights and unparalleled expertise.
+                        <p class="text-color-2">HIPMI Kota Semarang
+                            Himpunan Pengusaha Muda Indonesia
                         </p>
                         <div class="w-max-content">
                             <a href="blog.html" class="btn btn-accent rounded-pill d-flex flex-row gap-2 px-5 py-3">

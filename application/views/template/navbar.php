@@ -9,15 +9,15 @@
                     class="d-flex flex-xl-row flex-column flex-wrap align-items-center justify-content-center justify-content-xl-start text-white mb-3 mb-xl-0 gap-xl-5 gap-2">
                     <span class="d-flex flex-row align-items-center gap-2">
                         <i class="fa-solid fa-envelope text-white"></i>
-                        hello@domainsite.com
+                        Hipmi-KabSemarang@dipo.com
                     </span>
                     <span class="d-flex flex-row align-items-center gap-2">
                         <i class="fa-solid fa-phone text-white"></i>
-                        0761-8523-398
+                        +62 859-4138-420
                     </span>
                     <span class="d-flex flex-row align-items-center gap-2">
                         <i class="fa-solid fa-location-dot text-white"></i>
-                        KLLG St, No.99, Pku City, ID 28289
+                        Sraten Satu, Kec. Tuntang, Kabupaten Semarang, Jawa Tengah 50773
                     </span>
                 </div>
                 <div class="social-container mb-xl-0 mb-3">
@@ -70,7 +70,7 @@
                         </ul>
                         <div class="mb-xl-0 mb-3">
                             <a href="contact.html" class="btn btn-accent rounded-pill d-flex flex-row gap-2 px-4 py-2">
-                                <span>Join Now</span>
+                                <span>Login</span>
                                 <i class="rtmicon rtmicon-arrow-up-right fs-6 fw-semibold"></i>
                             </a>
                         </div>
