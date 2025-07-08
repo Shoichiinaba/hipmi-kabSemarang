@@ -12,14 +12,14 @@ $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
 	// Offline development
-	'username' => 'root',
-	'password' => '',
+	// 'username' => 'root',
+	// 'password' => '',
 
 	 // online development (productions)
-	//  'username' => 'kina3126_mp_kanpa',
-	//  'password' => 'kanpa2020',
+	 'username' => 'u741951839_hipmi',
+	 'password' => 'hipmi123!',
 
-	'database' => 'kina3126_mp_kanpa.co.id',
+	'database' => 'u741951839_hipmi',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
