@@ -24,13 +24,13 @@
                                             <div class="d-flex flex-column gap-3">
                                                 <ul class="list gap-2">
                                                     <li>
-                                                        <a href="index.html"
+                                                        <a href="<?php echo site_url('Landing'); ?>"
                                                             class="link d-flex flex-row gap-3 align-items-center">
                                                             Home
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="about.html"
+                                                        <a href="<?php echo site_url('Landing/about_us'); ?>"
                                                             class="link d-flex flex-row gap-3 align-items-center">
                                                             About Us
                                                         </a>
@@ -48,15 +48,9 @@
                                             <div class="d-flex flex-column gap-3">
                                                 <ul class="list gap-2">
                                                     <li>
-                                                        <a href="contact.html"
+                                                        <a href="<?php echo site_url('Landing/contact'); ?>"
                                                             class="link d-flex flex-row gap-3 align-items-center">
                                                             Contact Us
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href=""
-                                                            class="link d-flex flex-row gap-3 align-items-center">
-                                                            Privacy & Policy
                                                         </a>
                                                     </li>
                                                 </ul>

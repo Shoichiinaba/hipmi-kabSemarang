@@ -10,7 +10,7 @@
                         <div class="linear-gradient">
                             <span class="font-2 accent-color-3">HIPMI Kab. Semarang</span>
                         </div>
-                        <h1 class="fw-semibold">Bangkit Bersama Kab. Semarang123456</h1>
+                        <h1 class="fw-semibold">Bangkit Bersama Kab. Semarang</h1>
                         <p>
                             Bergabunglah bersama organisasi pengusaha muda terbesar di Indonesia
                         </p>
@@ -584,22 +584,22 @@
                         <div class="linear-gradient">
                             <span class="font-2 accent-color-3">FAQs</span>
                         </div>
-                        <h3 class="font-1 fw-bold">Let’s Ask Anything About Business</h3>
-                        <p class="text-color-2">We are specialize in transforming businesses and fostering growth
-                            through strategic insights and unparalleled expertise.</p>
+                        <h3 class="font-1 fw-bold">Let’s Ask Anything About HIPMI Kabupaten Semarang</h3>
+                        <p class="text-color-2">Kami hadir untuk mendukung pertumbuhan pengusaha muda di Kabupaten
+                            Semarang melalui kolaborasi, pelatihan, dan jaringan yang luas.</p>
                         <div class="accordion mt-3 d-flex flex-column gap-4" id="faqAccordion1">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
-                                        How do I know if my business needs consulting services?
+                                        Apa itu HIPMI Kabupaten Semarang?
                                     </button>
                                 </h2>
                                 <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion1">
                                     <div class="accordion-body">
-                                        If you find your business struggling to overcome certain challenges or
-                                        capitalize on opportunities, consulting services can provide the expertise
-                                        and support needed to navigate and succeed in today's competitive landscape.
+                                        HIPMI (Himpunan Pengusaha Muda Indonesia) Kabupaten Semarang adalah organisasi
+                                        yang menaungi dan mendukung para pengusaha muda di wilayah Kabupaten Semarang
+                                        untuk tumbuh, berkembang, dan berkontribusi terhadap perekonomian daerah.
                                     </div>
                                 </div>
                             </div>
@@ -607,14 +607,14 @@
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
-                                        How does the consulting process typically work?
+                                        Siapa saja yang bisa bergabung dengan HIPMI Kabupaten Semarang?
                                     </button>
                                 </h2>
                                 <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion1">
                                     <div class="accordion-body">
-                                        If you find your business struggling to overcome certain challenges or
-                                        capitalize on opportunities, consulting services can provide the expertise
-                                        and support needed to navigate and succeed in today's competitive landscape.
+                                        Anggota HIPMI adalah pengusaha muda yang berusia maksimal 41 tahun, memiliki
+                                        usaha aktif, dan berdomisili atau memiliki kepentingan bisnis di Kabupaten
+                                        Semarang.
                                     </div>
                                 </div>
                             </div>
@@ -622,14 +622,14 @@
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
-                                        What industries do you specialize in?
+                                        Apa saja manfaat menjadi anggota HIPMI Kabupaten Semarang?
                                     </button>
                                 </h2>
                                 <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion1">
                                     <div class="accordion-body">
-                                        If you find your business struggling to overcome certain challenges or
-                                        capitalize on opportunities, consulting services can provide the expertise
-                                        and support needed to navigate and succeed in today's competitive landscape.
+                                        Manfaat keanggotaan mencakup akses ke jaringan pengusaha muda nasional,
+                                        pelatihan kewirausahaan, pendampingan bisnis, peluang kerja sama, serta dukungan
+                                        dalam promosi usaha.
                                     </div>
                                 </div>
                             </div>
@@ -637,14 +637,14 @@
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
-                                        How are your consulting fees structured?
+                                        Bagaimana cara mendaftar menjadi anggota HIPMI Kabupaten Semarang?
                                     </button>
                                 </h2>
                                 <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion1">
                                     <div class="accordion-body">
-                                        If you find your business struggling to overcome certain challenges or
-                                        capitalize on opportunities, consulting services can provide the expertise
-                                        and support needed to navigate and succeed in today's competitive landscape.
+                                        Anda dapat mendaftar secara online melalui website resmi atau datang langsung
+                                        ke sekretariat HIPMI Kabupaten Semarang dengan membawa dokumen usaha dan mengisi
+                                        formulir pendaftaran.
                                     </div>
                                 </div>
                             </div>
@@ -652,14 +652,14 @@
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faq9" aria-expanded="false" aria-controls="faq9">
-                                        Can you provide a cost estimate before we begin?
+                                        Apakah ada biaya untuk menjadi anggota?
                                     </button>
                                 </h2>
                                 <div id="faq9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion1">
                                     <div class="accordion-body">
-                                        If you find your business struggling to overcome certain challenges or
-                                        capitalize on opportunities, consulting services can provide the expertise
-                                        and support needed to navigate and succeed in today's competitive landscape.
+                                        Ya, terdapat biaya pendaftaran awal dan iuran tahunan keanggotaan. Besarannya
+                                        dapat berbeda tergantung kebijakan internal dan akan diinformasikan saat
+                                        pendaftaran.
                                     </div>
                                 </div>
                             </div>
@@ -687,14 +687,14 @@
                                         </button>
                                     </div>
                                 </div>
-                                <img src="<?= base_url('assets/'); ?>image/dummy-img-600x400.jpg" alt="image"
+                                <img src="<?= base_url('assets/'); ?>image/videohip.jpg" alt="image"
                                     class="w-100 img-fluid">
                             </div>
                             <div class="modal fade" id="e119" tabindex="-1" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered modal-lg">
                                     <div class="modal-content bg-dark-color">
                                         <iframe class="ifr-video"
-                                            src="https://www.youtube.com/embed/FK2RaJ1EfA8?autoplay=1"></iframe>
+                                            src="https://www.youtube.com/watch?v=PVme9AzBgeU"></iframe>
                                     </div>
                                 </div>
                             </div>

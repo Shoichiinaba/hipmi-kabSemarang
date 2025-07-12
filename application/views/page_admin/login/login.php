@@ -7,12 +7,12 @@
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-    <title>Kanpa .co.id | Login</title>
+    <title>Hipmi Kab. Semarang | Login</title>
 
     <meta name="description" content="" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/img/logo/A.png" />
+    <link rel="icon" type="image/x-icon" href="assets_adm/img/logo/logo.png" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,14 +22,14 @@
         rel="stylesheet" />
 
     <!-- Icons. Uncomment required icon fonts -->
-    <link rel="stylesheet" href="assets/vendor/fonts/boxicons.css" />
+    <link rel="stylesheet" href="assets_adm/vendor/fonts/boxicons.css" />
 
     <!-- Core CSS -->
-    <link rel="stylesheet" href="assets/vendor/css/core.css" class="template-customizer-core-css" />
-    <link rel="stylesheet" href="assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
-    <link rel="stylesheet" href="assets/css/demo.css" />
-    <link rel="stylesheet" href="assets/vendor/css/pages/page-auth.css" />
-    <script src="assets/vendor/js/helpers.js"></script>
+    <link rel="stylesheet" href="assets_adm/vendor/css/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="assets_adm/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="assets_adm/css/demo.css" />
+    <link rel="stylesheet" href="assets_adm/vendor/css/pages/page-auth.css" />
+    <script src="assets_adm/vendor/js/helpers.js"></script>
     <style>
     .btn-primary {
         background: linear-gradient(to right, #163D88, #129BCD);
@@ -38,9 +38,19 @@
     }
 
     .btn-primary:hover {
-        background: linear-gradient(to right, #A30500, #CD1299);
+        background: linear-gradient(to right, rgb(238, 238, 15), rgb(179, 207, 19));
         border: none;
-        color: white;
+        color: black;
+    }
+
+    .hipmi-text {
+        text-transform: uppercase;
+        background: linear-gradient(to right, #163D88, #129BCD);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+        font-size: 2rem;
+        /* Bisa disesuaikan */
     }
     </style>
 </head>
@@ -53,12 +63,12 @@
                 <div class="card">
                     <div class="card-body">
                         <!-- Logo -->
-                        <div class="app-brand justify-content-center">
-                            <a href="<?php echo site_url('Auth'); ?>" class="app-brand-link">
-                                <span class="app-brand-logo demo">
-                                    <img src="<?= base_url('assets'); ?>/img/logo/logo.png" />
-                                </span>
-                            </a>
+                        <div class="app-brand justify-content-center mb-1">
+                            <div class="app-brand justify-content-center">
+                                <a href="<?php echo site_url('Auth'); ?>" class="app-brand-link gap-2">
+                                    <span class="hipmi-text mb-0">HIPMI</span>
+                                </a>
+                            </div>
                         </div>
 
                         <!-- Flash Message -->
@@ -133,12 +143,12 @@
     `;
     });
     </script>
-    <script src="assets/vendor/libs/jquery/jquery.js"></script>
-    <script src="assets/vendor/libs/popper/popper.js"></script>
-    <script src="assets/vendor/js/bootstrap.js"></script>
-    <script src="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
-    <script src="assets/vendor/js/menu.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="assets_adm/vendor/libs/jquery/jquery.js"></script>
+    <script src="assets_adm/vendor/libs/popper/popper.js"></script>
+    <script src="assets_adm/vendor/js/bootstrap.js"></script>
+    <script src="assets_adm/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="assets_adm/vendor/js/menu.js"></script>
+    <script src="assets_adm/js/main.js"></script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 

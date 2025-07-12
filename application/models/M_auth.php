@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class M_auth extends CI_Model {
     public function login($user, $pass) {
         $this->db->select('*');
-        $this->db->from('agency');
+        $this->db->from('user');
 
         $this->db->group_start();
         $this->db->where('username', $user);

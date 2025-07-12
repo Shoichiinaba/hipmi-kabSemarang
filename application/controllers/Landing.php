@@ -17,4 +17,20 @@ class Landing extends CI_Controller
         $data['script']         = 'front/home/home_js';
         $this->load->view($this->template, $data);
     }
+
+    public function about_us()
+    {
+        $data['tittle']         = 'About Us | Semarang';
+        $data['content']        = 'front/about/about';
+        $data['script']         = 'front/about/about_js';
+        $this->load->view($this->template, $data);
+    }
+
+    public function contact()
+    {
+        $data['tittle']         = 'Contuct | Semarang';
+        $data['content']        = 'front/contact/contact';
+        $data['script']         = 'front/contact/contact_js';
+        $this->load->view($this->template, $data);
+    }
 }

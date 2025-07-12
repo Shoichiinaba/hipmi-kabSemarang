@@ -53,23 +53,19 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav mx-auto mb-2 mb-xl-0 gap-xl-4 gap-1">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    About Us
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="about.html">About Us</a></li>
-                                </ul>
+                                <a class="nav-link active" aria-current="page"
+                                    href="<?php echo site_url('Landing'); ?>">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact Us</a>
+                                <a class="nav-link" href="<?php echo site_url('Landing/about_us'); ?>">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="<?php echo site_url('Landing/contact'); ?>">Contact Us</a>
                             </li>
                         </ul>
                         <div class="mb-xl-0 mb-3">
-                            <a href="contact.html" class="btn btn-accent rounded-pill d-flex flex-row gap-2 px-4 py-2">
+                            <a href="<?php echo site_url('Auth'); ?>"
+                                class="btn btn-accent rounded-pill d-flex flex-row gap-2 px-4 py-2">
                                 <span>Login</span>
                                 <i class="rtmicon rtmicon-arrow-up-right fs-6 fw-semibold"></i>
                             </a>
