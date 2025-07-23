@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Dashboard extends CI_Controller
+class Dashboard extends AUTH_Controller
 {
 
     var $template = 'template_adm/index';
@@ -13,7 +13,7 @@ class Dashboard extends CI_Controller
     public function index()
     {
         $data['tittle']         = 'HIPMI | Dashboard';
-        // $data['userdata']       = $this->userdata;
+        $data['userdata']       = $this->userdata;
         $data['content']        = 'page_admin/dashboard/dashboard';
         $data['script']         = 'page_admin/dashboard/dashboard_js';
         $this->load->view($this->template, $data);

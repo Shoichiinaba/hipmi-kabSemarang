@@ -13,10 +13,22 @@ class M_auth extends CI_Model {
 
         $data = $this->db->get();
 
+        // if ($data->num_rows() == 1) {
+        //     $user_data = $data->row();
+
+        //     if (password_verify($pass, $user_data->password)) {
+        //         return $user_data;
+        //     } else {
+        //         return false;
+        //     }
+        // } else {
+        //     return false;
+        // }
+
         if ($data->num_rows() == 1) {
             $user_data = $data->row();
 
-            if (password_verify($pass, $user_data->password)) {
+            if (md5($pass) === $user_data->password) {
                 return $user_data;
             } else {
                 return false;
