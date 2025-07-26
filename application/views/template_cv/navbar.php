@@ -35,13 +35,16 @@
         </header>
     </div>
 </div>
+
 <nav class="main-header-menu">
     <a href="<?php echo site_url('Curriculum_vitae/cv'); ?>" class="logo"><img
-            src="<?= base_url('assets_cv'); ?>/images/header/Logo.svg" alt="logo"></a>
+            src="<?= base_url('assets_cv'); ?>/images/logo/tricore_logo.png" alt="logo" style="height: 50px;"></a>
     <div class="container">
+        <?php $encoded_id = $this->uri->segment(3); ?>
+
         <ul class="tabs-ul-menu">
             <li class="tabs-li">
-                <a href="<?php echo site_url('Curriculum_vitae/about'); ?>" class=" list-link">
+                <a href="<?= site_url('Curriculum_vitae/about/' . $encoded_id); ?>" class=" list-link">
                     <div class="imag-list">
                         <img src="<?= base_url('assets_cv'); ?>/images/hero/about.svg" alt="about" class="list-img">
                     </div>
@@ -49,7 +52,7 @@
                 </a>
             </li>
             <li class="tabs-li">
-                <a href="resume.html" class="list-link">
+                <a href="<?= site_url('Curriculum_vitae/resume/' . $encoded_id); ?>" class="list-link">
                     <div class="imag-list">
                         <img src="<?= base_url('assets_cv'); ?>/images/hero/resume.svg" alt="about" class="list-img">
                     </div>
@@ -57,7 +60,7 @@
                 </a>
             </li>
             <li class="tabs-li">
-                <a href="services.html" class="list-link">
+                <a href="<?= site_url('Curriculum_vitae/service/' . $encoded_id); ?>" class="list-link">
                     <div class="imag-list">
                         <img src="<?= base_url('assets_cv'); ?>/images/hero/services.svg" alt="about" class="list-img">
                     </div>
@@ -65,7 +68,7 @@
                 </a>
             </li>
             <li class="tabs-li">
-                <a href="portfolio.html" class="list-link">
+                <a href="<?= site_url('Curriculum_vitae/portofolio/' . $encoded_id); ?>" class="list-link">
                     <div class="imag-list">
                         <img src="<?= base_url('assets_cv'); ?>/images/hero/portfolio.svg" alt="about" class="list-img">
                     </div>
@@ -73,7 +76,7 @@
                 </a>
             </li>
             <li class="tabs-li">
-                <a href="contact.html" class="list-link">
+                <a href="" <?= site_url('Curriculum_vitae/contact/' . $encoded_id); ?>" class="list-link">
                     <div class="imag-list">
                         <img src="<?= base_url('assets_cv'); ?>/images/hero/contact.svg" alt="about" class="list-img">
                     </div>
@@ -81,7 +84,8 @@
                 </a>
             </li>
         </ul>
-        <a href="<?= base_url('assets_cv'); ?>/images/header/Download_CV.pdf" target="_blank" class="download-nav">
+
+        <a href="<?= site_url('Curriculum_vitae/export_pdf/' . $encoded_id) ?>" target="_blank" class="download">
             <div class="down-ander">
                 <div class="images-down">
                     <img src="<?= base_url('assets_cv'); ?>/images/header/download.svg" alt="download"
@@ -116,6 +120,8 @@
     </div>
 </nav>
 <!--================ [ Header section Exit ] ================-->
+
+<!-- navbar untuk desktop -->
 <!--================ [ Hero section Start ] ================-->
 <div class="hero" id="hero">
     <div class="container ">
