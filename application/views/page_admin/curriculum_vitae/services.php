@@ -15,7 +15,7 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
                     <div class="box-services">
                         <div class="box-image">
-                            <img src="<?= base_url('assets_cv'); ?> /images/services/<?= $data->icon; ?>"
+                            <img src="<?= base_url('assets_cv'); ?>/images/services/<?= $data->icon; ?>"
                                 alt="box-image">
                         </div>
                         <div class="box-title">

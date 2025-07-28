@@ -15,7 +15,7 @@
 
     <ul class="menu-inner py-1">
         <!-- Dashboard -->
-        <?php if ($userdata->role == 'anggota') : ?>
+        <?php if ($userdata->role == 'anggota' && (string)$userdata->status === '2') : ?>
         <li class="menu-item <?php echo ($this->uri->segment(1) == 'Dashboard') ? 'active' : ''; ?>">
             <a href="<?php echo site_url('Dashboard'); ?>" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
@@ -28,16 +28,17 @@
                 <div data-i18n="Analytics">Anggota</div>
             </a>
         </li>
+
         <?php
-            function base64url_encode($data) {
-                return rtrim(strtr(base64_encode($data), '+/', '-_'), '=');
-            }
-        ?>
+        function base64url_encode($data) {
+            return rtrim(strtr(base64_encode($data), '+/', '-_'), '=');
+        }
+    ?>
         <li class="menu-item <?php echo ($this->uri->segment(1) == 'Curriculum_vitae') ? 'active' : ''; ?>">
             <a href="<?= site_url('Curriculum_vitae/cv/' . base64url_encode($userdata->id)) ?>" class="menu-link"
                 target="_blank">
                 <i class="menu-icon tf-icons bx bx-video-recording"></i>
-                <div data-i18n="Analytics">Profile</div>
+                <div data-i18n="Analytics">Curiculume Vitae</div>
             </a>
         </li>
         <li class="menu-item <?php echo ($this->uri->segment(1) == 'Dewan_pengurus') ? 'active' : ''; ?>">
@@ -47,7 +48,17 @@
             </a>
         </li>
         <?php endif; ?>
+        <?php if ($userdata->status == '1') : ?>
+        <li class="menu-item <?php echo ($this->uri->segment(1) == 'Data_diri') ? 'active' : ''; ?>">
+            <a href="<?php echo site_url('Data_diri'); ?>" class="menu-link">
+                <i class="menu-icon tf-icons bx bxs-user-account"></i>
+                <div data-i18n="Analytics">Biodata</div>
+            </a>
+        </li>
+        <?php endif; ?>
 
+
+        <!-- menu admin -->
         <?php if ($userdata->role == 'Admin') : ?>
         <li class="menu-item <?php echo ($this->uri->segment(1) == 'Dashboard') ? 'active' : ''; ?>">
             <a href="<?php echo site_url('Dashboard'); ?>" class="menu-link">

@@ -12,12 +12,12 @@ $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
 	// Offline development
-	// 'username' => 'root',
-	// 'password' => '',
+	'username' => 'root',
+	'password' => '',
 
 	 // online development (productions)
-	 'username' => 'u741951839_hipmi',
-	 'password' => 'Hipmi123!',
+	//  'username' => 'u741951839_hipmi',
+	//  'password' => 'Hipmi123!',
 
 	'database' => 'u741951839_hipmi',
 	'dbdriver' => 'mysqli',

@@ -42,7 +42,18 @@
     <div class="container">
         <?php $encoded_id = $this->uri->segment(3); ?>
 
-        <ul class="tabs-ul-menu">
+        <a href="<?= site_url('Curriculum_vitae/export_pdf/' . $encoded_id) ?>" target="_blank" class="download">
+            <div class="down-ander">
+                <div class="images-down">
+                    <img src="<?= base_url('assets_cv'); ?>/images/header/download.svg" alt="download"
+                        class="icon-down">
+                </div>
+                <p>Download CV</p>
+            </div>
+        </a>
+
+
+        <!-- <ul class="tabs-ul-menu">
             <li class="tabs-li">
                 <a href="<?= site_url('Curriculum_vitae/about/' . $encoded_id); ?>" class=" list-link">
                     <div class="imag-list">
@@ -76,24 +87,18 @@
                 </a>
             </li>
             <li class="tabs-li">
-                <a href="" <?= site_url('Curriculum_vitae/contact/' . $encoded_id); ?>" class="list-link">
+                <a href=" <?= site_url('Curriculum_vitae/contact/' . $encoded_id); ?>" class="list-link">
                     <div class="imag-list">
                         <img src="<?= base_url('assets_cv'); ?>/images/hero/contact.svg" alt="about" class="list-img">
                     </div>
                     <p class="name-tab">Contact</p>
                 </a>
             </li>
-        </ul>
+        </ul> -->
 
-        <a href="<?= site_url('Curriculum_vitae/export_pdf/' . $encoded_id) ?>" target="_blank" class="download">
-            <div class="down-ander">
-                <div class="images-down">
-                    <img src="<?= base_url('assets_cv'); ?>/images/header/download.svg" alt="download"
-                        class="icon-down">
-                </div>
-                <p>Download CV</p>
-            </div>
-        </a>
+
+
+
         <div class="social-icon-main">
             <a href="https://medium.com/" class="social-design-main">
                 <img src="<?= base_url('assets_cv'); ?>/images/footer/medium-m.svg" alt="medium">
