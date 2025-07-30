@@ -163,50 +163,50 @@ class Curriculum_vitae extends AUTH_Controller
     }
 
     public function export_pdf($encoded_id = null)
-{
-    if ($encoded_id === null) {
-        show_404();
-        return;
+    {
+        if ($encoded_id === null) {
+            show_404();
+            return;
+        }
+
+        // Decode ID manual
+        $decoded = base64_decode(strtr($encoded_id, '-_', '+/'));
+        if (!$decoded || !is_numeric($decoded)) {
+            show_error("ID tidak valid: " . htmlspecialchars($encoded_id));
+            return;
+        }
+
+        $id_user = $decoded;
+
+        // Ambil data dari database
+        $data['userdata']   = $this->Member_model->get_contact_cv($id_user);
+        $data['pendidikan'] = $this->Member_model->get_edukasi_by_id($id_user);
+        $data['keahlian']   = $this->Member_model->get_skill_by_id($id_user);
+        $data['pengalaman'] = $this->Member_model->get_experience_by_id($id_user);
+        $data['service']    = $this->Member_model->get_service_by_id($id_user);
+
+        // Render view HTML
+        $html = $this->load->view('page_admin/curriculum_vitae/cv_pdf', $data, true);
+
+        // Konfigurasi Dompdf
+        $options = new Options();
+        $options->set('isHtml5ParserEnabled', true);
+        $options->set('isRemoteEnabled', true);
+        $options->set('defaultFont', 'DejaVu Sans'); // Font aman unicode & Dompdf-friendly
+
+        $dompdf = new Dompdf($options);
+        $dompdf->loadHtml($html);
+        $dompdf->setPaper('A4', 'portrait');
+
+        // Render PDF
+        $dompdf->render();
+
+        // Nama file output
+        $filename = 'CV_' . ($data['userdata']->nama ?? 'user') . '.pdf';
+
+        // Tampilkan preview tanpa force download
+        $dompdf->stream($filename, ["Attachment" => false]);
     }
-
-    // Decode ID manual
-    $decoded = base64_decode(strtr($encoded_id, '-_', '+/'));
-    if (!$decoded || !is_numeric($decoded)) {
-        show_error("ID tidak valid: " . htmlspecialchars($encoded_id));
-        return;
-    }
-
-    $id_user = $decoded;
-
-    // Ambil data dari database
-    $data['userdata']   = $this->Member_model->get_contact_cv($id_user);
-    $data['pendidikan'] = $this->Member_model->get_edukasi_by_id($id_user);
-    $data['keahlian']   = $this->Member_model->get_skill_by_id($id_user);
-    $data['pengalaman'] = $this->Member_model->get_experience_by_id($id_user);
-    $data['service']    = $this->Member_model->get_service_by_id($id_user);
-
-    // Render view HTML
-    $html = $this->load->view('page_admin/curriculum_vitae/cv_pdf', $data, true);
-
-    // Konfigurasi Dompdf
-    $options = new Options();
-    $options->set('isHtml5ParserEnabled', true);
-    $options->set('isRemoteEnabled', true);
-    $options->set('defaultFont', 'DejaVu Sans'); // Font aman unicode & Dompdf-friendly
-
-    $dompdf = new Dompdf($options);
-    $dompdf->loadHtml($html);
-    $dompdf->setPaper('A4', 'portrait');
-
-    // Render PDF
-    $dompdf->render();
-
-    // Nama file output
-    $filename = 'CV_' . ($data['userdata']->nama ?? 'user') . '.pdf';
-
-    // Tampilkan preview tanpa force download
-    $dompdf->stream($filename, ["Attachment" => false]);
-}
 
 
 }

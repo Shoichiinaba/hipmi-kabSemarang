@@ -1,3 +1,39 @@
+<style>
+.download-mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .download-desktop {
+        display: none;
+    }
+
+    .download-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 78%;
+        padding: 0px;
+    }
+
+    .download:hover {
+        background-color: #ff5e03;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .icon-down {
+        width: 19px;
+        transition: transform 0.3s ease;
+    }
+
+    .download:hover .icon-down {
+        transform: scale(1.1) rotate(-10deg);
+    }
+
+}
+</style>
+
 <div id="cursor" class="cursor">
     <div class="ring">
         <div></div>
@@ -42,18 +78,18 @@
     <div class="container">
         <?php $encoded_id = $this->uri->segment(3); ?>
 
-        <a href="<?= site_url('Curriculum_vitae/export_pdf/' . $encoded_id) ?>" target="_blank" class="download">
+        <a href="<?= site_url('Curriculum_vitae/export_pdf/' . $encoded_id) ?>" target="_blank"
+            class="download download-mobile">
             <div class="down-ander">
                 <div class="images-down">
-                    <img src="<?= base_url('assets_cv'); ?>/images/header/download.svg" alt="download"
-                        class="icon-down">
+                    <img src="<?= base_url('assets_cv'); ?>/images/header/download.svg" alt="download" class="icon-down"
+                        style="width: 30px;">
                 </div>
                 <p>Download CV</p>
             </div>
         </a>
 
-
-        <!-- <ul class="tabs-ul-menu">
+        <ul class="tabs-ul-menu">
             <li class="tabs-li">
                 <a href="<?= site_url('Curriculum_vitae/about/' . $encoded_id); ?>" class=" list-link">
                     <div class="imag-list">
@@ -94,10 +130,7 @@
                     <p class="name-tab">Contact</p>
                 </a>
             </li>
-        </ul> -->
-
-
-
+        </ul>
 
         <div class="social-icon-main">
             <a href="https://medium.com/" class="social-design-main">
