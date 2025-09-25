@@ -113,7 +113,7 @@
                                                         </div>
                                                         <div class="d-flex flex-column">
                                                             <h5>Phone</h5>
-                                                            <span>+62 859-4138-420</span>
+                                                            <span>+62821-5381-8757</span>
                                                         </div>
                                                     </div>
                                                 </li>
@@ -124,8 +124,8 @@
                                                         </div>
                                                         <div class="d-flex flex-column">
                                                             <h5>Location</h5>
-                                                            <span>Sraten Satu, Kec. Tuntang, Kabupaten Semarang, Jawa
-                                                                Tengah 50773</span>
+                                                            <span>Jl. Imam Bonjol No.188, Sekayu, Kec. Semarang Tengah,
+                                                                Kota Semarang, Jawa Tengah 50132</span>
                                                         </div>
                                                     </div>
                                                 </li>
@@ -136,7 +136,7 @@
                                                         </div>
                                                         <div class="d-flex flex-column">
                                                             <h5>Email</h5>
-                                                            <span>Hipmi-KabSemarang@dipo.com</span>
+                                                            <span>Hipmi-Semarang@dipo.com</span>
                                                         </div>
                                                     </div>
                                                 </li>
@@ -150,7 +150,7 @@
                     <hr class="accent-color">
                     <div class="d-flex flex-xl-row flex-column gap-3 justify-content-between align-items-center py-3">
                         <span class="text-xl-center text-color text-start fs-6 font-2">
-                            Copyright © 2025 HIPMI Kab. Semarang. All Rights Reserved.
+                            Copyright © 2025 HIPMI Kota Semarang. All Rights Reserved.
                         </span>
                         <div class="social-container team mb-xl-0 mb-3 gap-2">
                             <a href="https://www.facebook.com" class="social-item-2">

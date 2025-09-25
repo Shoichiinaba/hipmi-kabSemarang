@@ -8,9 +8,9 @@
                 <div class="col col-xl-7 px-4 mt-4 mb-3">
                     <div class="d-flex flex-column gap-4 pe-xl-5">
                         <div class="linear-gradient">
-                            <span class="font-2 accent-color-3">HIPMI Kab. Semarang</span>
+                            <span class="font-2 accent-color-3">HIPMI Kota Semarang</span>
                         </div>
-                        <h1 class="fw-semibold">Bangkit Bersama Kab. Semarang</h1>
+                        <h1 class="fw-semibold">Bangkit Bersama Kota Semarang</h1>
                         <p>
                             Bergabunglah bersama organisasi pengusaha muda terbesar di Indonesia
                         </p>
@@ -151,7 +151,7 @@
                         <div class="linear-gradient">
                             <span class="font-2 accent-color-3">About Us</span>
                         </div>
-                        <h3 class="font-1 fw-bold">HIPMI Kabupaten Semarang</h3>
+                        <h3 class="font-1 fw-bold">HIPMI Kota Semarang</h3>
                         <p class="text-color-2">HIPMI memiliki 34 Badan Pengurus Daerah di seluruh Indonesia. HIPMI
                             Kota Makassar yang ada di Kota Makassar saat ini mempunyai Badan Pengurus Cabang (BPC)
                             yang melingkupi 5 daerah di wilayah Kota Makassar. Saat ini terdapat lebih dari 3000
@@ -345,14 +345,14 @@
                 </div>
                 <div class="col mb-5">
                     <div class="position-relative mb-5">
-                        <img src="<?= base_url('assets/'); ?>image/team2.jpg" alt="image"
+                        <img src="<?= base_url('assets/'); ?>image/team2.png" alt="image"
                             class="img-fluid rounded-3 w-100">
                         <div class="position-absolute w-75" style="margin-top: -5rem; margin-left: 12%;">
                             <div
                                 class="bg-accent-color d-flex flex-column text-white p-4 align-items-center text-center rounded-3">
                                 <div class="mb-2">
-                                    <h4>Teddy Tirtayadi</h4>
-                                    <span class="font-2">Ketua Umum BPD HIPMI</span>
+                                    <h4>Oldy Ardhana</h4>
+                                    <span class="font-2">Ketua Umum BPC HIPMI Kota Semarang</span>
                                 </div>
                                 <div class="social-container team gap-2">
                                     <a href="https://www.facebook.com" class="social-item">
@@ -425,7 +425,6 @@
             </div>
         </div>
     </div>
-
 
     <!-- Testimonials -->
     <div class="section">
@@ -584,21 +583,21 @@
                         <div class="linear-gradient">
                             <span class="font-2 accent-color-3">FAQs</span>
                         </div>
-                        <h3 class="font-1 fw-bold">Let’s Ask Anything About HIPMI Kabupaten Semarang</h3>
-                        <p class="text-color-2">Kami hadir untuk mendukung pertumbuhan pengusaha muda di Kabupaten
+                        <h3 class="font-1 fw-bold">Let’s Ask Anything About HIPMI Kota Semarang</h3>
+                        <p class="text-color-2">Kami hadir untuk mendukung pertumbuhan pengusaha muda di Kota
                             Semarang melalui kolaborasi, pelatihan, dan jaringan yang luas.</p>
                         <div class="accordion mt-3 d-flex flex-column gap-4" id="faqAccordion1">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
-                                        Apa itu HIPMI Kabupaten Semarang?
+                                        Apa itu HIPMI Kota Semarang?
                                     </button>
                                 </h2>
                                 <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion1">
                                     <div class="accordion-body">
-                                        HIPMI (Himpunan Pengusaha Muda Indonesia) Kabupaten Semarang adalah organisasi
-                                        yang menaungi dan mendukung para pengusaha muda di wilayah Kabupaten Semarang
+                                        HIPMI (Himpunan Pengusaha Muda Indonesia) Kota Semarang adalah organisasi
+                                        yang menaungi dan mendukung para pengusaha muda di wilayah Kota Semarang
                                         untuk tumbuh, berkembang, dan berkontribusi terhadap perekonomian daerah.
                                     </div>
                                 </div>
@@ -607,13 +606,13 @@
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
-                                        Siapa saja yang bisa bergabung dengan HIPMI Kabupaten Semarang?
+                                        Siapa saja yang bisa bergabung dengan HIPMI Kota Semarang?
                                     </button>
                                 </h2>
                                 <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion1">
                                     <div class="accordion-body">
                                         Anggota HIPMI adalah pengusaha muda yang berusia maksimal 41 tahun, memiliki
-                                        usaha aktif, dan berdomisili atau memiliki kepentingan bisnis di Kabupaten
+                                        usaha aktif, dan berdomisili atau memiliki kepentingan bisnis di Kota
                                         Semarang.
                                     </div>
                                 </div>
@@ -622,7 +621,7 @@
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
-                                        Apa saja manfaat menjadi anggota HIPMI Kabupaten Semarang?
+                                        Apa saja manfaat menjadi anggota HIPMI Kota Semarang?
                                     </button>
                                 </h2>
                                 <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion1">
@@ -637,13 +636,13 @@
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
-                                        Bagaimana cara mendaftar menjadi anggota HIPMI Kabupaten Semarang?
+                                        Bagaimana cara mendaftar menjadi anggota HIPMI Kota Semarang?
                                     </button>
                                 </h2>
                                 <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion1">
                                     <div class="accordion-body">
                                         Anda dapat mendaftar secara online melalui website resmi atau datang langsung
-                                        ke sekretariat HIPMI Kabupaten Semarang dengan membawa dokumen usaha dan mengisi
+                                        ke sekretariat HIPMI Kota Semarang dengan membawa dokumen usaha dan mengisi
                                         formulir pendaftaran.
                                     </div>
                                 </div>
