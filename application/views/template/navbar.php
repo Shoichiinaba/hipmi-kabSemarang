@@ -9,15 +9,15 @@
                     class="d-flex flex-xl-row flex-column flex-wrap align-items-center justify-content-center justify-content-xl-start text-white mb-3 mb-xl-0 gap-xl-5 gap-2">
                     <span class="d-flex flex-row align-items-center gap-2">
                         <i class="fa-solid fa-envelope text-white"></i>
-                        Hipmi-KabSemarang@dipo.com
+                        Hipmi-Semarang@dipo.com
                     </span>
                     <span class="d-flex flex-row align-items-center gap-2">
                         <i class="fa-solid fa-phone text-white"></i>
-                        +62 859-4138-420
+                        +62821-5381-8757
                     </span>
                     <span class="d-flex flex-row align-items-center gap-2">
                         <i class="fa-solid fa-location-dot text-white"></i>
-                        Sraten Satu, Kec. Tuntang, Kabupaten Semarang, Jawa Tengah 50773
+                        Jl. Imam Bonjol No.188, Sekayu, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50132
                     </span>
                 </div>
                 <div class="social-container mb-xl-0 mb-3">
